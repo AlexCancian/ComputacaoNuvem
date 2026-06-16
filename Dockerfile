@@ -8,6 +8,6 @@ RUN git clone https://github.com/AlexCancian/ComputacaoNuvem.git .
 
 RUN npm install
 
-EXPOSE 8000
+EXPOSE 8002
 
 CMD ["npm", "run", "dev"]
